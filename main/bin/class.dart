@@ -10,3 +10,7 @@ class User {
     return 'User(id: $_id, name: "$_username")';
   }
 }
+
+class Student extends User {
+  Student(int id, String studentName) : super(0, 'ALisher');
+}
